@@ -22,17 +22,18 @@ TripoSR Github:
 
 ### Local launch server
 For launching Web app server, use dotnet run in Backend directory.
-
-<code>dotnet run</code>
+```c#
+dotnet run
+```
 
 For launching TripoSR server, create virtual environment in PythonServer directory.
-
-<code>python -m venv venv</code>
-
-<code>./venv/Script/activate</code>
-
-<code>pip install -r requirements</code>
+```sh
+python -m venv venv
+./venv/Script/activate
+pip install -r requirements
+```
 
 After that, use bach file for running uvicorn in PythonServer directory.
-
-<code>./uvicorn_develop.sh</code>
+```sh
+./uvicorn_develop.sh
+```
