@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "python-server"
 version = "0.1.0"
-description = ""
+description = "TripoSR Server"
 authors = ["yorimichi <yorimichi.dev@gmail.com>"]
 readme = "README.md"
 
