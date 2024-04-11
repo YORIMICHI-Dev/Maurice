@@ -1,8 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  title: 'Text to 3D with TripoSR',
+});
+</script>
 
 <template>
-  <!-- <PagesBabylonTutorial1 /> -->
-  <!-- <PagesBabylonTutorial2 /> -->
-  <!-- <PagesBabylonTurorial22 /> -->
-  <PagesBabylonTutorial3 />
+  <PagesHome />
 </template>

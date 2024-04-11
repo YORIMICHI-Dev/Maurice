@@ -4,9 +4,14 @@ import '@mdi/font/css/materialdesignicons.css';
 import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
 
+// tabler icons
+
+// scss
+import '@/assets/scss/style.scss';
+
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
-    // ... your configuration
+    ssr: true,
   });
   app.vueApp.use(vuetify);
 });
