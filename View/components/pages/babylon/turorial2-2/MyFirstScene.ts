@@ -57,8 +57,8 @@ export const myScene: SceneConfigType = {
       boxGreen.rotation.y += 0.01;
     });
   },
-  setPosition: function(name, x, y, z) {
-    if (this.scene === null) return
+  setPosition: function (name, x, y, z) {
+    if (this.scene === null) return;
 
     const mesh = this.scene.getMeshByName(name);
     if (mesh) {
