@@ -1,4 +1,4 @@
-import { IconAperture } from '@tabler/icons-vue';
+import { IconAperture, IconBrandGithub, IconStar } from '@tabler/icons-vue';
 
 export interface NavItem {
   header?: string;
@@ -11,10 +11,22 @@ export interface NavItem {
 }
 
 const sidebarItem: NavItem[] = [
-  { header: 'Home' },
+  { header: 'App' },
   {
-    title: 'Modern',
+    title: 'Generate',
     icon: IconAperture,
+    to: '/dashboards/modern',
+  },
+  { header: 'Github' },
+  {
+    title: 'Repository',
+    icon: IconBrandGithub,
+    to: '/dashboards/modern',
+  },
+  { header: 'TripoSR' },
+  {
+    title: 'Repository',
+    icon: IconStar,
     to: '/dashboards/modern',
   },
 ];

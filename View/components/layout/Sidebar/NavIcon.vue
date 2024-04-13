@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { NavItem } from './sidebarItem';
 type Props = {
-    item: NavItem,
-    level: number
-}
+  item: NavItem;
+  level: number;
+};
 const props = defineProps<Props>();
 </script>
 
