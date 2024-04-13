@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
-@import 'variables';
+// Override sass
+@use './variables';
+@use './override';
 
-// Vcomponents
-@import './Vcomponents/VTextField';
-@import './Vcomponents/VList';
+// Vuetify main sass
+@use 'vuetify/styles/main.sass';
 
 // layout
-@import './layout/sidebar';
+@use './layout/container';
+@use './layout/sidebar';
+@use './layout/text';
+@use './layout/topbar';
+
+// components
+@use './components/VCard';
+@use './components/VList';
+@use './components/VShadow';
+@use './components/VTextField';
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
