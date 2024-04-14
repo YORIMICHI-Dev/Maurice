@@ -1,9 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const showView = ref<boolean>(true);
+
+function notShowView() {
+  showView.value = false;
+}
+</script>
 
 <template>
-  <!-- delete while generating -->
-  <PagesHomeBeforeSearch />
+  <!-- show initial view -->
+  <PagesHomeBeforeSearch v-if="showView" />
 
-  <PagesHomeModelViewer />
-  <PagesHomeSearchBox />
+  <PagesHomeChat v-else />
+  <PagesHomeSearchBox @notShowView="notShowView" />
 </template>

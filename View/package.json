@@ -11,13 +11,18 @@
     "format": "bun prettier . --write"
   },
   "dependencies": {
-    "@babylonjs/core": "^7.1.0",
     "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.5.1",
     "@tabler/icons-vue": "^3.2.0",
+    "@types/three": "^0.163.0",
+    "install": "^0.13.0",
     "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
     "sass": "^1.74.1",
+    "three": "^0.163.0",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-perfect-scrollbar": "^2.0.0"
   },
   "devDependencies": {
     "prettier": "3.2.5",

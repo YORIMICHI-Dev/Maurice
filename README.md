@@ -3,10 +3,11 @@
 This app generates 3D model (obj file) with TripoSR.
 
 TripoSR Github:
-(https://github.com/YORIMICHI-Dev/TripoSR)
+
+(https://github.com/VAST-AI-Research/TripoSR)
 
 ## Develop environment
-<b>Application Server</b>
+### Application Server
 <ui>
     <li>.NET8.0 (static files server)</li>
     <li>Fast API 0.110.1 (generate 3D model with TripoSR server)</li>
@@ -20,12 +21,13 @@ TripoSR Github:
     <li>Python 3.12</li>
 </ui>
 
-### Local launch server
+### Local launch web app server
 For launching Web app server, use dotnet run in Backend directory.
 ```c#
 dotnet run
 ```
 
+### Local launch TripoSR server
 For launching TripoSR server, create virtual environment in PythonServer directory.
 ```sh
 python -m venv venv

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Text to 3D with TripoSR',
+  title: 'Maurice',
 });
 </script>
 

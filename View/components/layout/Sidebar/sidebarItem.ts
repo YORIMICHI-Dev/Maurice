@@ -22,14 +22,14 @@ const sidebarItem: NavItem[] = [
     title: 'Repository',
     icon: IconBrandGithub,
     to: 'https://github.com/YORIMICHI-Dev/Maurice',
-    type: "external"
+    type: 'external',
   },
   { header: 'TripoSR' },
   {
     title: 'Repository',
     icon: IconStar,
     to: 'https://github.com/VAST-AI-Research/TripoSR',
-    type: "external"
+    type: 'external',
   },
 ];
 

@@ -8,7 +8,7 @@
       </v-avatar>
 
       <div class="mt-4">
-        <h2>What kind of 3D model would you generate?</h2>
+        <h2 class="text-center">What kind of 3D model would you generate?</h2>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
 #initialView {
   position: fixed;
   bottom: 50%;
-  left: 50%;
+  left: calc(50% + 135px);
   transform: translateX(-50%);
 }
 </style>
