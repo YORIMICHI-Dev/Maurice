@@ -15,19 +15,21 @@ const sidebarItem: NavItem[] = [
   {
     title: 'Generate',
     icon: IconAperture,
-    to: '/dashboards/modern',
+    to: '/',
   },
   { header: 'Github' },
   {
     title: 'Repository',
     icon: IconBrandGithub,
-    to: '/dashboards/modern',
+    to: 'https://github.com/YORIMICHI-Dev/Maurice',
+    type: "external"
   },
   { header: 'TripoSR' },
   {
     title: 'Repository',
     icon: IconStar,
-    to: '/dashboards/modern',
+    to: 'https://github.com/VAST-AI-Research/TripoSR',
+    type: "external"
   },
 ];
 

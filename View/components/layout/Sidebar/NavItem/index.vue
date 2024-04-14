@@ -9,7 +9,13 @@ const props = defineProps<Props>();
 
 <template>
   <!---Single Item-->
-  <v-list-item :to="item.to" rounded class="mb-1">
+  <v-list-item
+        :to="item.type === 'external' ? '' : item.to"
+        :href="item.type === 'external' ? item.to : ''"
+        rounded
+        class="mb-1"
+        :target="item.type === 'external' ? '_blank' : ''"
+    >
     <!---If icon-->
     <template v-slot:prepend>
       <LayoutSidebarNavIcon :item="item.icon" :level="level" />
